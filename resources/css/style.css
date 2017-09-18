@@ -1,22 +1,21 @@
 /* general styling */
 
+html {
+  font-size: 14px;
+}
+
 body {
   padding-top: 50px;
-  font-size: 14px;
   font-family: 'Open Sans', sans-serif;
 }
 
-font-family: 'Monoton', cursive;
-
 /* navigation */
-
-nav li a {
-}
 
 .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover {
     background-color: inherit;
     color: #399bd1;
     font-weight: bold;
+    font-size: 1.1rem;
 }
 
 .navbar-default .navbar-nav>li>a {
@@ -27,5 +26,27 @@ nav li a {
 /* Jumbotron */
 
 .jumbotron-bike {
-  background-image: url("../resources/images/jumbotron-bike.jpg");
+  background-image: url("../images/jumbotron-bike.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.jumbotron h1 {
+  font-family: 'Monoton', cursive;
+  font-size: 7.1rem;
+  padding-top: 11.85rem;
+}
+
+.jumbotron h1, p {
+  color: white;
+  text-align: center;
+  text-shadow: -1px -1px 0 #000,
+               1px -1px 0 #000,
+               -1px 1px 0 #000,
+               1px 1px 0 #000;
+}
+
+.jumbotron p {
+  max-width: 51.3rem;
+  margin: auto;
 }
