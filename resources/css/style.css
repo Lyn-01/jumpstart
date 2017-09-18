@@ -1,0 +1,31 @@
+/* general styling */
+
+body {
+  padding-top: 50px;
+  font-size: 14px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+font-family: 'Monoton', cursive;
+
+/* navigation */
+
+nav li a {
+}
+
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover {
+    background-color: inherit;
+    color: #399bd1;
+    font-weight: bold;
+}
+
+.navbar-default .navbar-nav>li>a {
+  /* font-size: 1.1rem; */
+  font-weight: bold;
+}
+
+/* Jumbotron */
+
+.jumbotron-bike {
+  background-image: url("../resources/images/jumbotron-bike.jpg");
+}
